@@ -1,0 +1,85 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/" . "tedhogan/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/" . "routes/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/" . "iris_web/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/" . "clj/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/" . "models/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/" . "iris_web/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/" . "clj/")
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/" . "spec/")
+ ("/Users/tedhogan/Development/Pinnpointe/" . "iris-web/")
+ ("/Users/tedhogan/Development/" . "Pinnpointe/")
+ ("/Users/tedhogan/.emacs.d/" . "customizations/")
+ ("/Users/tedhogan/" . "Development/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/"
+ "/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/models/"
+ "/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/routes/"
+ "/Users/tedhogan/.emacs.d/customizations/"
+ "/Users/tedhogan/.emacs.d/"
+ "/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/routes/"
+ "/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/models/"
+ "/Users/tedhogan/Development/Pinnpointe/iris-web/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "utility.clj"
+ "db_spec.clj"
+ "api_spec.clj"
+ "editing.el"
+ "init.el"
+ "misc.el"
+ "api.clj"
+ "authorizations.clj"
+ "db.clj"
+ "project.clj"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/" (22038 44873 0 0) "test.sh" "target/" "src/" "spec/" "resources/" "README.md" "project.clj" "Procfile" "midje-junit.clj" "iris_web.iml" "iris.log" "dev-resources/" ".project" ".nrepl-port" ".lein-repl-history" ".lein-env" ".idea/" ".gitlab-ci.yml" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/tedhogan/.emacs.d/" (22038 42002 0 0) "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" ".smex-items" ".recentf" "../" "./")
+
+ ("/Users/tedhogan/.emacs.d/customizations/" (22038 40119 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/tedhogan/" (22038 39763 0 0) "X17-59186.iso" "VirtualBox VMs/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "en_windows_8.1_with_update_x86_dvd_6051550.iso" "Downloads/" "Documents/" "Development/" "Desktop/" "azure.err" "Applications (Parallels)/" "Applications/" ".zshrc" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".squirrel-sql/" ".rstudio-desktop/" ".rnd" ".Rhistory" ".rbenv/" ".pry_history" ".oracle_jre_usage/" ".npm/" ".matplotlib/" ".m2/" ".lesshst" ".lein/" ".IntelliJIdea14/" ".grc_gnuradio/" ".gnupg/" ".gitignore_global" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_sessions/" ".bash_profile" ".bash_history" ".azure/" ".android/" "../" "./")
+
+ ("/Users/" (22034 53124 0 0) "tedhogan/" "Shared/" "admin/" ".localized" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/models/" (22038 39015 0 0) "db_spec.clj" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/routes/" (22035 63419 0 0) "surveys.clj" "reports.clj" "items.clj" "home.clj" "authorizations.clj" "api.clj" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/routes/" (22035 10400 0 0) "api_spec.clj" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/models/" (22037 32771 0 0) "db.clj" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/" (22035 10400 0 0) "views/" "routes/" "repl.clj" "models/" "imports/" "handler.clj" "core.clj" "authentication.clj" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/" (22035 10400 0 0) "iris_web/" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/cljs/" (22035 10400 0 0) "iris_web/" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/src/" (22035 10400 0 0) "cljs/" "clj/" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/" (22037 33072 0 0) "utility.clj" "routes/" "models/" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/" (22035 10400 0 0) "iris_web/" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/" (22035 10400 0 0) "clj/" "../" "./")
+
+ ("/Users/tedhogan/Development/Pinnpointe/" (22035 10398 0 0) "untitled1/" "untitled/" "Test/" "Safeway_Item_Response_Upload/" "Safeway Duplicate Removal/" "RMSI Image Upload/" "PartitionQueryCreation/" "Mingerink Store Creation/" "kgmuploads/" "iris-web/" "iris-mobile/" "IRIS Image Download/" "helpdesk/" "GenWebAssignments/" "Genisys_Import/" "genisys-forecasts/" ".DS_Store" "../" "./")
+
+ ("/Users/tedhogan/Development/" (22028 5897 0 0) "Visual Studio Premium with MSDN-12-2-2014-credentials.publishsettings" "testReadyPacImport.csv" "Test/" "Pinnpointe/" "Personal/" "nzjdbc.jar" "azure.err" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

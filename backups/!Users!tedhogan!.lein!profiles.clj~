@@ -1,0 +1,5 @@
+{:user {:plugins [[jonase/eastwood "0.2.1"]
+		  [lein-ancient "0.6.7"]
+		  [cider/cider-nrepl "0.8.1"]
+	 	  [lein-kibit "0.1.2"]]}}
+

@@ -1,0 +1,25 @@
+
+;; ----- smex-history -----
+(
+ list-packages
+ package-install
+ cider-jack-in
+ magit-status
+ search-forward-regexp
+ paradox-list-packages
+ describe-mode
+)
+
+;; ----- smex-data -----
+(
+ (update-file-autoloads . 1)
+ (cider-jack-in . 3)
+ (compile . 1)
+ (term . 1)
+ (describe-mode . 1)
+ (list-packages . 6)
+ (paradox-list-packages . 6)
+ (search-forward-regexp . 3)
+ (magit-status . 3)
+ (package-install . 1)
+)
