@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ paradox-list-packages
  cljr-rename-symbol
  magit-status
  revert-buffer
  clj-refactor-mode
  find-function
  font-lock-mode
- auto-complete-mode
 )
 
 ;; ----- smex-data -----
@@ -18,7 +18,7 @@
  (term . 1)
  (describe-mode . 1)
  (list-packages . 8)
- (paradox-list-packages . 7)
+ (paradox-list-packages . 8)
  (search-forward-regexp . 3)
  (magit-status . 91)
  (package-install . 4)

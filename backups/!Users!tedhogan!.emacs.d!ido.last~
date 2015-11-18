@@ -40,15 +40,16 @@
  ("/Users/tedhogan/Development/Pinnpointe/iris-web/spec/" . "clj/")
  ("/Users/tedhogan/Development/Pinnpointe/iris-web/" . "spec/")
  ("/Users/tedhogan/Development/Pinnpointe/" . "genisys-forecasts/")
- ("/Users/tedhogan/Development/" . "Personal/")
+ ("/Users/tedhogan/Development/" . "Pinnpointe/")
  ("/Users/tedhogan/.emacs.d/" . "customizations/")
  ("/Users/tedhogan/" . "Development/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/tedhogan/Development/Personal/clojure-mode/"
+ "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/"
+ "/Users/tedhogan/Development/Personal/clojure-mode/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/cljs/genisys_forecasts/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/genisys_forecasts/routes/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/resources/templates/"
@@ -59,7 +60,6 @@
  "/Users/tedhogan/Development/Pinnpointe/iris-web/spec/clj/iris_web/models/"
  "/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/routes/"
  "/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/models/"
- "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/spec/clj/genisys_forecasts/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/routes/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/env/dev/cljs/genisys_forecasts/"
@@ -88,8 +88,9 @@
 
 ;; ----- ido-work-file-list -----
 (
- "clojure-mode.el"
+ ".gitlab-ci.yml"
  "db.clj"
+ "clojure-mode.el"
  "assignments.cljs"
  "forecasts.clj"
  "forecasts.html"
@@ -97,22 +98,21 @@
  "api_spec.clj"
  "utility.clj"
  "db_spec.clj"
- "authorizations.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/tedhogan/Development/Personal/clojure-mode/" (22091 47628 0 0) "test.clj" "test/" "README.md" "Makefile" "doc/" "CONTRIBUTING.md" "clojure-test-mode.el" "clojure-mode.el" "Cask" ".travis.yml" ".gitignore" ".git/" "../" "./")
+ ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/" (22091 57473 0 0) "test/" "target/" "src/" "spec/" "resources-production/" "resources-development/" "resources/" "README.md" "project.clj" "Procfile" "genisys_forecasts.log" "genisys-forecasts.iml" "env/" "dev-resources/" ".lein-env" ".idea/" ".gitlab-ci.yml" ".gitignore" ".git/" "../" "./")
 
- ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/" (22091 47066 0 0) "test/" "target/" "src/" "spec/" "resources-production/" "resources-development/" "resources/" "README.md" "project.clj" "Procfile" "genisys_forecasts.log" "genisys-forecasts.iml" "figwheel_server.log" "env/" "dev-resources/" ".lein-repl-history" ".lein-env" ".idea/" ".gitlab-ci.yml" ".gitignore" ".git/" "../" "./")
+ ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/" (22091 54629 0 0) "util.clj" "session_manager.clj" "routes/" "repl.clj" "middleware.clj" "layout.clj" "imports/" "handler.clj" "db.clj" "authentication.clj" "../" "./")
 
- ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/" (22091 47066 0 0) "cljs/" "clj/" ".DS_Store" "../" "./")
+ ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/" (22091 54384 0 0) "genisys_forecasts/" "../" "./")
 
- ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/" (22091 47066 0 0) "genisys_forecasts/" "../" "./")
+ ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/" (22091 54384 0 0) "cljs/" "clj/" "../" "./")
 
- ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/" (22091 47066 0 0) "util.clj" "session_manager.clj" "routes/" "repl.clj" "middleware.clj" "layout.clj" "imports/" "handler.clj" "db.clj" "authentication.clj" "../" "./")
+ ("/Users/tedhogan/Development/Pinnpointe/" (22091 54377 0 0) "untitled1/" "untitled/" "Test/" "Safeway_Item_Response_Upload/" "Safeway Duplicate Removal/" "RMSI Image Upload/" "PartitionQueryCreation/" "Mingerink Store Creation/" "kgmuploads/" "iris-web/" "iris-mobile/" "IRIS Image Download/" "helpdesk/" "GenWebAssignments/" "Genisys_Import/" "genisys-forecasts/" "account-settings/" ".DS_Store" "../" "./")
 
- ("/Users/tedhogan/Development/Pinnpointe/" (22091 30073 0 0) "untitled1/" "untitled/" "Test/" "Safeway_Item_Response_Upload/" "Safeway Duplicate Removal/" "RMSI Image Upload/" "PartitionQueryCreation/" "Mingerink Store Creation/" "kgmuploads/" "iris-web/" "iris-mobile/" "IRIS Image Download/" "helpdesk/" "GenWebAssignments/" "Genisys_Import/" "genisys-forecasts/" "account-settings/" ".DS_Store" "../" "./")
+ ("/Users/tedhogan/Development/Personal/clojure-mode/" (22091 54472 0 0) "test.clj" "test/" "README.md" "Makefile" "doc/" "CONTRIBUTING.md" "clojure-test-mode.el" "clojure-mode.el" "Cask" ".travis.yml" ".gitignore" ".git/" "../" "./")
 
  ("/Users/tedhogan/" (22091 31973 0 0) "X17-59186.iso" "VirtualBox VMs/" "Public/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "Library/" "Expand CS applicants Ted Notes.xlsx" "en_windows_8.1_with_update_x86_dvd_6051550.iso" "Downloads/" "Documents/" "Development/" "Desktop/" "Copy of Star Master Items.xlsx" "Books/" "azure.err" "Applications (Parallels)/" "Applications/" ".zshrc" ".Xauthority" ".wireshark-etc/" ".wireshark/" ".viminfo" ".vim/" ".Trash/" ".subversion/" ".ssh/" ".squirrel-sql/" ".rstudio-desktop/" ".rnd" ".Rhistory" ".rbenv/" ".psql_history" ".pry_history" ".pgpass" ".pgadmin_histoqueries" ".oracle_jre_usage/" ".npm/" ".node-gyp/" ".mix/" ".matplotlib/" ".m2/" ".lesshst" ".lein_history" ".lein/" ".kdiff3rc" ".IntelliJIdea14/" ".hgignore_global" ".hex/" ".gsutil/" ".grc_gnuradio/" ".gnupg/" ".gitignore_global" ".gitconfig" ".gem/" ".fontconfig/" ".emacs.d/" ".DS_Store" ".cups/" ".config/" ".CFUserTextEncoding" ".cache/" ".bash_sessions/" ".bash_profile" ".bash_history" ".azure/" ".android/" "../" "./")
 

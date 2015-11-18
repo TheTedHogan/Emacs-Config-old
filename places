@@ -1,6 +1,7 @@
 ;;; -*- coding: utf-8 -*-
-(("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/db.clj" . 3472)
- ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/.gitlab-ci.yml" . 57)
+(("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/.gitlab-ci.yml" . 138)
+ ("/Users/tedhogan/.emacs.d/init.el" . 3008)
+ ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/db.clj" . 3472)
  ("/Users/tedhogan/Development/Personal/clojure-mode/clojure-mode.el" . 33371)
  ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/cljs/genisys_forecasts/assignments.cljs" . 1019)
  ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/resources/templates/forecasts.html" . 3999)
@@ -18,7 +19,6 @@
  ("/Users/tedhogan/Development/Personal/clojure-mode/CONTRIBUTING.md" . 1108)
  ("/Users/tedhogan/.emacs.d/customizations/editing.el" . 1988)
  ("/Users/tedhogan/.emacs.d/customizations/setup-clojure.el" . 3212)
- ("/Users/tedhogan/.emacs.d/init.el" . 5510)
  ("/Users/tedhogan/.emacs.d/customizations/misc.el" . 414)
  ("/Users/tedhogan/.emacs.d/elpa/ac-cider-20151012.308/ac-cider-autoloads.el" . 1307)
  ("/Users/tedhogan/.emacs.d/elpa/auto-complete-20150618.1949/auto-complete-autoloads.el" . 1688)

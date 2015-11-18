@@ -42,11 +42,12 @@
  ("/Users/tedhogan/Development/Pinnpointe/" . "genisys-forecasts/")
  ("/Users/tedhogan/Development/" . "Pinnpointe/")
  ("/Users/tedhogan/.emacs.d/" . "customizations/")
- ("/Users/tedhogan/" . "Development/")
+ ("/Users/tedhogan/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/tedhogan/.emacs.d/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/"
  "/Users/tedhogan/Development/Personal/clojure-mode/"
@@ -68,7 +69,6 @@
  "/Users/tedhogan/.lein/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/imports/"
  "/Users/tedhogan/.emacs.d/customizations/"
- "/Users/tedhogan/.emacs.d/"
  "/Users/tedhogan/Development/Pinnpointe/iris-web/src/clj/iris_web/"
  "/Users/tedhogan/Development/Pinnpointe/iris-web/"
  "/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/resources-development/"
@@ -88,6 +88,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "init.el"
  ".gitlab-ci.yml"
  "db.clj"
  "clojure-mode.el"
@@ -97,11 +98,14 @@
  "script.js"
  "api_spec.clj"
  "utility.clj"
- "db_spec.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/Users/tedhogan/.emacs.d/customizations/" (22066 51671 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
+
+ ("/Users/tedhogan/.emacs.d/" (22091 59045 0 0) "url/" "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
+
  ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/" (22091 57473 0 0) "test/" "target/" "src/" "spec/" "resources-production/" "resources-development/" "resources/" "README.md" "project.clj" "Procfile" "genisys_forecasts.log" "genisys-forecasts.iml" "env/" "dev-resources/" ".lein-env" ".idea/" ".gitlab-ci.yml" ".gitignore" ".git/" "../" "./")
 
  ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/" (22091 54629 0 0) "util.clj" "session_manager.clj" "routes/" "repl.clj" "middleware.clj" "layout.clj" "imports/" "handler.clj" "db.clj" "authentication.clj" "../" "./")
@@ -161,10 +165,6 @@
  ("/Users/tedhogan/Development/Pinnpointe/genisys-forecasts/src/clj/genisys_forecasts/imports/" (22049 26325 0 0) "readypacimport.clj" "../" "./")
 
  ("/Users/tedhogan/Development/Personal/" (22066 64045 0 0) "thetedhogan/" "template/" "shakitz-fantasy-football/" "hello_phoenix/" "FantasyFootballAnalyticsR/" "clojure-mode/" "bt/" ".DS_Store" "../" "./")
-
- ("/Users/tedhogan/.emacs.d/customizations/" (22066 51385 0 0) "ui.el" "shell-integration.el" "setup-js.el" "setup-clojure.el" "navigation.el" "misc.el" "elisp-editing.el" "editing.el" "../" "./")
-
- ("/Users/tedhogan/.emacs.d/" (22066 51370 0 0) "url/" "themes/" "README.md" "projectile-bookmarks.eld" "places" "init.el" "ido.last" "elpa/" "customizations/" "cider-history" "backups/" "auto-save-list/" "ac-comphist.dat" ".smex-items" ".recentf" ".gitignore" ".git/" "../" "./")
 
  ("/Users/tedhogan/Development/Personal/hello_phoenix/" (22043 9895 0 0) "web/" "test/" "README.md" "priv/" "package.json" "node_modules/" "mix.lock" "mix.exs" "lib/" "deps/" "config/" "brunch-config.js" "_build/" ".gitignore" "../" "./")
 
