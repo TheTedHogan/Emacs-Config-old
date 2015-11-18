@@ -1,0 +1,81 @@
+(ns genisys-forecasts.utility
+  (:require [clojure.java.io :as io]
+            [genisys-forecasts.db :as db]
+            [hikari-cp.core :refer :all]
+            [clj-time.core :as t]
+            [clj-time.jdbc])
+  (:import (net.sf.log4jdbc.sql.jdbcapi DataSourceSpy)))
+
+(def ^:dynamic db (atom nil))
+
+(def datasource-options
+  (-> (io/resource "db_test.end")
+      (slurp)
+      (edn/read-string)))
+(defn setup-db []
+  (reset! db (do
+               (prn datasource-options)
+               (println "Created DB Pool")
+               {:datasource (new DataSourceSpy (make-datasource datasource-options))})))
+
+(defn ensure-test-db []
+  (if (not (.endsWith (db/current-db) "Test"))
+    (throw (Exception. "Error: Does not appear to be test database"))))
+
+(defn clear-database []
+  (ensure-test-db)
+  (db/execute! ["exec sp_msforeachtable \" ALTER TABLE ? NOCHECK CONSTRAINT all \" "])
+  (db/execute! ["exec sp_msforeachtable \" DELETE FROM ? \" "])
+  (db/execute! ["exec sp_msforeachtable \" ALTER TABLE ? WITH CHECK CHECK CONSTRAINT all \" "]))
+
+(defn load-table [table]
+  (let [insert (sql (db/insert table []
+                      (values (table db-fixture))))
+        statement (str "IF OBJECTPROPERTY(OBJECT_ID('"
+                       (name table) "'), 'TableHasIdentity') = 1  SET IDENTITY_INSERT " (name table) " ON; "
+                       (first insert)
+                       "; IF OBJECTPROPERTY(OBJECT_ID('"
+                       (name table) "'), 'TableHasIdentity') = 1  SET IDENTITY_INSERT " (name table) " OFF; ")
+        query (flatten [statement (rest insert)])]
+    (db/execute! query)))
+
+(def db-fixture
+  {:principalgroups [{:id 1 :name "Corporate Clients"}
+                     {:id 2 :name "All Others"}]
+   :principals [{:id 1 :principal_code "GREENMTN" :name "Green Mountain" :principalgroup 1}
+               {:id 2  :principal_code "LITEHOUS" :name "Litehouse" :principalgroup 2}]
+   :products [{:id 1 :product_code "123" :description "coffee" :full_upc "1234" :principalid 1}
+              {:id 2 :product_code "456" :description "dressing" :full_upc "5678" :principalid 2}]
+   :customergroups [{:id 1 :name "Kroger"}
+                    {:id 2 :name "Albertsons"}]
+   :customers [{:id 1 :name "Fred Meyer" :customergroup 1}
+               {:id 2 :name "Albertsons" :customergroups 2}]
+   :shiptos [{:id 1 :name "Fred Meyer Puyallup" :customer 1}
+             {:id 2 :name "Albertsons Meridian" :customer 2}]
+   :companies [{:id 1 :name "ISI"}
+               {:id 2 :name "CSI"}]
+   :divisions [{:id 1 :name "ISI - NorCal" :company 1}
+               {:id 2 :name "CSI - Northwest" :company 2}]
+   :employees [{:id 1 :name "ISI - Martin, Dan" :company 1 :bm "yes"}
+               {:id 2 :name "CSI - Denso, Debbie" :company 2 :bm "yes"}
+               {:id 149 :name "ISI- Hogan, Ted" :company 1 :bm "no"}]
+   :assignments [{:principal 1 :shipto 1 :assigned_to 1 
+                  :assigned_by 149 :division 1 :lasttransaction (t/datetime 2015 1 1)}
+                 {:principal 2 :shipto 2 :assigned_to 2 
+                  :assigned_by 1 :division 2 :lasttransaction (t/datetime 2014 1 1)}]
+   :budgets [{:principal 1 :shipto 1 :quarter "2014 Q4" :budget 1234}
+             {:principal 2 :shipto 2 :quarter "2015 Q3" :budget 5678}]})
+
+(defn install-fixture []
+  (db/in-transaction #(do (clear-database)
+                          (load-table :principalgroups)
+                          (load-table :principals)
+                          (load-table :products)
+                          (load-table :companies)
+                          (load-table :divisions)
+                          (load-table :employees)
+                          (load-table :customergroups)
+                          (load-table :customers)
+                          (load-table :shiptos)
+                          (load-table :assignments)
+                          (load-table :budgets))))

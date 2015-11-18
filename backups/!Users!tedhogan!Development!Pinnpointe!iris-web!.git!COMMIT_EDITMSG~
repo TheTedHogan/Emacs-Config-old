@@ -1,14 +1,10 @@
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
-# On branch authorizations
-# Your branch is ahead of 'origin/authorizations' by 3 commits.
+# On branch customerdivisions
+# Your branch is ahead of 'origin/customerdivisions' by 5 commits.
 #   (use "git push" to publish your local commits)
 #
 # Changes to be committed:
-#	modified:   spec/clj/iris_web/models/db_spec.clj
 #	modified:   spec/clj/iris_web/routes/api_spec.clj
-#	modified:   spec/clj/iris_web/utility.clj
-#	modified:   src/clj/iris_web/models/db.clj
-#	modified:   src/clj/iris_web/routes/api.clj
 #

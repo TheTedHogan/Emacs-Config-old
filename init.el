@@ -153,3 +153,27 @@
     (cljr-add-keybindings-with-prefix "C-c C-m"))
 
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+
+(eval-after-load 'flycheck '(flycheck-clojure-setup))
+
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+(eval-after-load 'flycheck
+  '(setq flycheck-display-errors-function #'flycheck-pos-tip-error-messages))
+
+(setq rcirc-server-alist 
+'(("irc.freenode.net" :port 6697 :encryption tls))) 
+
+(setq rcirc-authinfo '(("freenode" nickserv "nick" "password"))) 
+
+(add-hook 'rcirc-mode-hook 
+	 (lambda () 
+	 (set (make-local-variable 'scroll-conservatively) 
+		 8192))) 
+
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;; This is your old M-x.
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+
+

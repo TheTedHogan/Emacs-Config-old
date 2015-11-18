@@ -1,5 +1,11 @@
 {:user {:plugins [[jonase/eastwood "0.2.1"]
 		  [lein-ancient "0.6.7"]
-		  [cider/cider-nrepl "0.8.1"]
-	 	  [lein-kibit "0.1.2"]]}}
+                  [debugger "0.1.7"]
+		  [cider/cider-nrepl "0.9.1"]
+                  [lein-pprint "1.1.1"]
+	 	  [lein-kibit "0.1.2"]]
+        :dependencies [[acyclic/squiggly-clojure "0.1.3-SNAPSHOT"]
+                       ^:replace [org.clojure/tools.nrepl "0.2.10"]]
+        :env {:squiglly {:checkers [:eastwood]}}}}
+
 

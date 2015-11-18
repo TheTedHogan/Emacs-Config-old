@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- list-packages
- package-install
- cider-jack-in
+ cljr-rename-symbol
  magit-status
- search-forward-regexp
- paradox-list-packages
- describe-mode
+ revert-buffer
+ clj-refactor-mode
+ find-function
+ font-lock-mode
+ auto-complete-mode
 )
 
 ;; ----- smex-data -----
@@ -17,9 +17,27 @@
  (compile . 1)
  (term . 1)
  (describe-mode . 1)
- (list-packages . 6)
- (paradox-list-packages . 6)
+ (list-packages . 8)
+ (paradox-list-packages . 7)
  (search-forward-regexp . 3)
- (magit-status . 3)
- (package-install . 1)
+ (magit-status . 91)
+ (package-install . 4)
+ (cljr-rename-symbol . 3)
+ (magit-init . 1)
+ (magit-stash . 2)
+ (magit-push . 5)
+ (irc . 1)
+ (cider-connect . 5)
+ (revert-buffer . 44)
+ (html-mode . 1)
+ (find-function . 2)
+ (cljr-find-usages . 1)
+ (just-one-space . 3)
+ (clj-refactor-mode . 4)
+ (clojure-mode . 1)
+ (cider-quit . 2)
+ (cider-mode . 3)
+ (auto-complete . 1)
+ (auto-complete-mode . 2)
+ (font-lock-mode . 2)
 )
