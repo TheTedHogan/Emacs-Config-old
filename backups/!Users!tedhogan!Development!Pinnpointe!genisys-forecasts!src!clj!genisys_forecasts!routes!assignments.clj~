@@ -1,8 +1,0 @@
-(ns genisys-forecasts.routes.assignments
-  (:require [:compojure.core :refer :all]
-            [genisys-forecasts.layour :as layout]))
-
-(defroutes assignments-routes
-  (GET "/assignments" []
-       (layout/render "assignments.html")))
-

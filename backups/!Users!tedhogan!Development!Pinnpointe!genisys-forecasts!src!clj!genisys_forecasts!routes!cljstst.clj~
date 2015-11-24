@@ -1,8 +1,0 @@
-(ns genisys-forecasts.routes.cljstst
-      (:require [compojure.core :refer :all]
-                [genisys-forecasts.layout :as layout]))
-
-  (defroutes cljstst-routes
-             (GET "/readypac" []
-               (layout/render "cljstest.html")))
-

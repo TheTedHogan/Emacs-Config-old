@@ -1,3 +1,0 @@
-(ns genisys-forecasts.assignments
-  (:require [reagent.core :as r]))
-

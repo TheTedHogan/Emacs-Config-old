@@ -1,5 +1,0 @@
-(ns genisys-forecasts.cljstst)
-
-(enable-console-print!)
-
-(println "Hello World!")
