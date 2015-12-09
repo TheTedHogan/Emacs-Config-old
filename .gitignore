@@ -7,3 +7,5 @@ ac-comphist.dat
 .smex-items
 auto-save-list
 places
+elpa/archives
+tramp
