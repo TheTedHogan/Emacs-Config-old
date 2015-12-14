@@ -1,1 +1,1 @@
-("~/Development/Pinnpointe/iris-web/")
+("~/.emacs.d/" "~/Development/Pinnpointe/iris-web/")
